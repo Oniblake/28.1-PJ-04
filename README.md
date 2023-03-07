@@ -24,7 +24,7 @@ ____
 8. В файле requirements.py описаны используемые библиотеки.
 
 Инструкция: 
-"pip install -r requirements.txt" - установка зависимостей.
-"python -m pytest -v —tb=line tests/test_auth_page.py" - запуск тестов формы авторизации.
-"python -m pytest -v —tb=line tests/ test_change_pass_page.py" - запуск тестов формы восстановления пароля.
-"python -m pytest -v —tb=line tests/ test_reg_page.py" - запуск тестов формы регистрации.
+1. "pip install -r requirements.txt" - установка зависимостей.
+2. "python -m pytest -v —tb=line tests/test_auth_page.py" - запуск тестов формы авторизации.
+3. "python -m pytest -v —tb=line tests/ test_change_pass_page.py" - запуск тестов формы восстановления пароля.
+4. "python -m pytest -v —tb=line tests/ test_reg_page.py" - запуск тестов формы регистрации.
